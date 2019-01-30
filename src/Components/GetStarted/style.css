@@ -1,0 +1,95 @@
+.GetStartedMainDiv {
+  background-color: #f6faf9;
+  padding: 0 145px;
+  padding-top: 80px;
+}
+
+.GetStartedDiv {
+  height: auto;
+  margin: 0 auto;
+  width: 90%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #048859;
+  border-radius: 10px;
+}
+
+.GetStartedDiv h1 {
+  font-weight: bold;
+  color: gray;
+}
+
+.GetStartedDiv span {
+  display: block;
+  word-break: break-all;
+  font-weight: normal;
+}
+
+.GetStartedDiv p {
+  visibility: hidden;
+  clear: both;
+}
+
+.GetStartedDiv div:nth-child(2) button {
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+  border-radius: 6px;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  width: 80%;
+  float: right;
+  position: relative;
+  top: 40px;
+  letter-spacing: .5px;
+}
+
+ .GetStartedDiv div:nth-child(1) {
+   width: 60%;
+   float: left;
+}
+
+ .GetStartedDiv div:nth-child(2) {
+   width: 35%;
+   vertical-align: middle;
+   float: right;
+   position: relative ;
+   right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .GetStartedMainDiv {margin: 0; padding: 100px; height: auto;}
+  .GetStartedDiv {width: 100%; margin: 0 auto;}
+  .GetStartedDiv button {width: 35%;}
+  .GetStartedDiv span {display: block; width: 90%; word-break: break-all;}
+}
+
+@media screen and (max-width: 768px) {
+  .GetStartedMainDiv {margin: 0; padding: 20px; height: auto;}
+  .GetStartedDiv {width: 100%;}
+  .GetStartedDiv button { margin: 0 auto;  width: 100%; margin-top: 20px;}
+  .GetStartedDiv div:nth-child(1), .GetStartedDiv div:nth-child(2) {float: none; display: block; width: 100%;}
+  .GetStartedDiv span {display: inline;;  word-break: break-all;}
+  .GetStartedMainDiv {margin: 0; padding: 80px; float: none;}
+  .GetStartedDiv {width: 100%; margin: 0 auto;}
+  .GetStartedDiv div:nth-child(2) button {margin: 0; padding: 10px; width: 100%; position: relative; top:10px; }
+  .GetStartedDiv span {display: block; width: 100%;}
+}
+
+@media screen and (max-width: 425px) {
+  .GetStartedMainDiv {margin: 0; padding: 20px; height: auto;}
+  .GetStartedDiv {width: 100%;}
+  .GetStartedDiv button { margin: 0 auto;  width: 100%; margin-top: 20px;}
+  .GetStartedDiv div:nth-child(1), .GetStartedDiv div:nth-child(2) {float: none; display: block; width: 100%;}
+  .GetStartedDiv span {display: inline;;  word-break: break-all;}
+  .GetStartedDiv h1 {font-size: 20px;}
+}
+
+@media screen and (max-width: 375px) {
+  .GetStartedDiv h1 {font-size: 20px;}
+  .GetStartedDiv div:nth-child(1) > span {font-size: 12px;}
+}
+
+@media screen and (max-width: 320px) {
+  .GetStartedDiv h1 {font-size: 20px;}
+  .GetStartedDiv div:nth-child(1) > span {font-size: 12px;}
+}

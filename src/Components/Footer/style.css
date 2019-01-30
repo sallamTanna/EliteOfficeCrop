@@ -1,0 +1,180 @@
+.footerMainDiv {
+  background-color: #f6faf9;
+  margin: 0 auto;
+  padding: 145px;
+  padding-bottom: 25px;
+}
+
+.footerMainDiv a {
+ color: #666;
+}
+
+.contentDiv {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footerMainDiv img {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.contentDiv h4 {
+  color: #666;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.contentDiv span {
+  display: block;
+}
+
+.underline {
+  display: block;
+  float: left;
+}
+
+.footerMainDiv input[type="email"] {
+  border: none;
+}
+
+.footerMainDiv input[type="email"]::placeholder {
+  font-size: 12px;
+}
+
+.emailDiv {
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 5px 5px 5px 10px;
+  width: 100%;
+  border: 1px solid #cfd2d6;
+  background-color: white;
+  overflow: hidden;
+}
+
+.emailDiv i {
+  margin-left: 30%;
+  color: #68B23B ;
+}
+
+.emailDiv input {
+  margin-right: 25px;
+}
+
+.fa-facebook, .fa-twitter, .fa-youtube, .fa-linkedin-in {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-linkedin-in:hover {
+  color: #68B23B;
+}
+
+.contentDiv .section2, .contentDiv .section3 {
+  display: none;
+}
+
+.gutter-row {
+  margin-bottom: 50px;
+}
+
+.toUpButton {
+  border-radius: 5px;
+  border: none;
+  height: 45px;
+  width: 45px;
+  color: white;
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+  float: right;
+  position: relative;
+  right: 0;
+  bottom: 60px;;
+}
+
+.fa-arrow-up {
+  color: white;
+}
+
+.line {
+   display: block;
+   margin-before: 0.5em;
+   margin-after: 2em;
+   margin-start: auto;
+   margin-end: auto;
+   border-style: inset;
+   border-width: .5px;
+   border-color: #c5c8cc;
+   width: 100%;
+}
+
+.ant-row {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .emailDiv {width: 100%;}
+  .footerMainDiv {margin: 0; padding: 63px; width: 100%; padding-top: 10px;}
+  .toUpButton {right: 50px; }
+  .emailDiv input {margin-right: -17px;}
+
+}
+
+@media screen and (max-width: 768px) {
+  .footerMainDiv {margin: 0; padding: 50px; width: 100%; padding-top: 10px;}
+  .toUpButton {right: 0px; }
+  .section1 h4 {font-size: 11px; font-weight: bolder;}
+  .footerMainDiv a, .footerMainDiv span {font-size: 12px;}
+  .emailDiv input {width: 80%; margin-right: -43px;}
+
+}
+
+@media screen and (max-width: 425px) {
+  .footerMainDiv {margin: 0; padding: 20px;}
+  .contentDiv .section2 {display: block; margin: 0; padding: 0px;}
+  .contentDiv .section1{display: none;}
+  .emailDiv {width: 100%;}
+  .contentDiv {margin: 0}
+  .toUpButton {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: -55px;
+    right: 0;
+  }
+  .emailDiv input {margin-right: -30px;}
+
+}
+
+@media screen and (max-width: 375px) {
+  .footerMainDiv {margin: 0; padding: 20px;}
+  .contentDiv .section3, .emailDiv i {display: block; margin: 0; padding: 0px;}
+  .contentDiv .section1, .contentDiv .section2 {display: none;}
+  .emailDiv {width: 108%;}
+  .emailDiv input {margin-right: 30px;}
+  .emailDiv i {display: inline;}
+  .contentDiv {margin: 0}
+  .toUpButton {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: -55px;
+    right: 0;
+  }
+  .fa-facebook, .fa-twitter, .fa-youtube, .fa-linkedin-in {font-size: 28px; margin-right: 15px;}
+  .footerMainDiv .footer {display: block; font-size: 10px;}
+}
+
+@media screen and (max-width: 320px) {
+  .emailDiv {width: 112%;}
+  .emailDiv input {margin-right: 20px;}
+  .footerMainDiv .footer {display: block; font-size: 10px;}
+}

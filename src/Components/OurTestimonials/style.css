@@ -1,0 +1,90 @@
+.ourTestimonialsMainDiv {
+  background: url('./background.png') no-repeat no-repeat;
+  background-position: 100px 50px;
+  height: 80vh;
+  padding-left: 145px;
+  margin-top: 100px;
+}
+
+.ourTestimonialsMainDiv section {
+  margin: 0;
+  margin-top: 35px;
+  padding: 15px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ourTestimonialsMainDiv h1 {
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.ourTestimonialsMainDiv span {
+  color: #919191;
+}
+
+.buttonDiv {
+  display: inline;
+  margin-left: 500px;
+}
+
+.buttonDiv button {
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  width: 35px;
+  color: white;
+  background-color: #DADADA;
+}
+
+.buttonDiv button:hover {
+  cursor: pointer;
+}
+
+.leftButton {
+  margin-right: 15px;
+}
+
+.LeftButtonActive {
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+}
+
+@media screen and (max-width: 1024px) {
+  .ourTestimonialsMainDiv { padding: 80; margin-top: 70px; margin-bottom: 40px;}
+  .buttonDiv {margin-left: 185px;}
+
+}
+
+@media screen and (max-width: 768px) {
+  #mainSection {width: 100%; margin: 0;}
+  .buttonDiv {margin:0}
+  .ourTestimonialsMainDiv {padding: 80px; padding-right: 0; margin: 0; margin-top: 20px; margin-bottom: 50px;}
+  .ourTestimonialsMainDiv > span {display: none;}
+}
+
+@media screen and (max-width: 425px) {
+  #mainSection {width: 100%; margin: 0;}
+  .buttonDiv {margin:0}
+  .ourTestimonialsMainDiv {padding: 40px; padding-right: 0; margin: 0; margin-top: 20px; margin-bottom: 50px;}
+  .ourTestimonialsMainDiv > span {display: none;}
+  .ourTestimonialsMainDiv h1 {font-size: 20px;}
+}
+
+@media screen and (max-width: 375px) {
+  #mainSection {width: 100%; margin: 0; padding: 0; margin-top: 10px;}
+  .buttonDiv {margin:0}
+  .ourTestimonialsMainDiv {padding: 30px; margin: 0; margin-top: 20px; margin-bottom: 0; padding-bottom: 0; height: 70vh;}
+  .ourTestimonialsMainDiv > span {display: none;}
+  .ourTestimonialsMainDiv h1 {font-size: 20px;}
+}
+
+@media screen and (max-width: 320px) {
+  #mainSection {width: 100%; margin: 0; padding: 0; margin-top: 10px;}
+  .buttonDiv {margin:0}
+  .ourTestimonialsMainDiv {padding: 30px; margin: 0; margin-top: 20px; margin-bottom: 0; padding-bottom: 0;}
+  .ourTestimonialsMainDiv > span {display: none;}
+  .ourTestimonialsMainDiv h1 {font-size: 20px;}
+}

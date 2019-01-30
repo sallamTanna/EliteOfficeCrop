@@ -1,0 +1,79 @@
+.mapMainDiv {
+  background: url('./background.png');
+  height: 100vh;
+  padding: 145px;
+  line-height: 25px;
+}
+
+.informationDiv {
+  margin: 0;
+  background-color: white;
+  box-shadow: 5px 5px 25px #666;
+  height: auto;
+  width: 350px;
+  padding: 25px;
+  border-radius: 10px;
+  position: relative;
+  top: 60%;
+  margin-left: 62%;
+  vertical-align: middle;
+}
+
+.informationDiv h1 {
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-weight: bold;
+}
+
+.informationDiv span {
+  text-align: justify;
+  color: #666;
+  letter-spacing: 1.5px;
+}
+
+.informationDiv i {
+  font-size: 20px;
+  margin-right: 15px;
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1024px) {
+  .informationDiv { margin-left: 58%;}
+}
+
+@media screen and (max-width: 850px) {
+  .mapMainDiv {margin: 0; padding: 20px; height: auto;}
+  .informationDiv {width: 100%; margin: 0 auto; }
+}
+
+@media screen and (max-width: 768px) {
+  .mapMainDiv {margin-top: 0; margin-bottom: 0; padding: 80px;}
+}
+
+@media screen and (max-width: 600px) {
+  .mapMainDiv {margin: 0; padding: 20px; height: auto;}
+  .informationDiv {width: 100%; margin: 0 auto; }
+}
+
+@media screen and (max-width: 425px) {
+  .informationDiv h1 {font-size: 20px;}
+}
+
+
+@media screen and (max-width: 375px) {
+  .informationDiv h1 {font-size: 20px;}
+}
+
+@media screen and (max-width: 320px) {
+  .informationDiv span {
+    font-size: 12px;
+    text-align: justify;
+    color: #666;
+    letter-spacing: 1px;
+  }
+  .informationDiv {padding: 20px;}
+  .informationDiv h1 {font-size: 20px;}
+}

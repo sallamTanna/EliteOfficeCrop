@@ -1,0 +1,107 @@
+.mainDivSection {
+  background:  url('./bg.png') no-repeat no-repeat;
+  background-size: cover;
+  font-family: "Arial";
+}
+
+.readMore, .startNow {
+  border-radius: 5px;
+  border: none;
+  padding: 10px 30px;
+  margin-top: 50px;
+}
+
+.readMore {
+	background: #fff;
+  margin-right: 20px;
+}
+
+.readMore:hover {
+  background: -webkit-linear-gradient(90deg, #68B23B 0%, #048859 100%);
+}
+
+.readMore:hover p {
+  background: -webkit-linear-gradient(90deg, #fff 0%, #fff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.startNow:hover {
+  background: -webkit-linear-gradient(90deg, #68B23B 0%, #048859 100%);
+}
+
+.readMore p {
+  display: inline;
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: normal;
+}
+
+.startNow {
+  background-color: #666666;
+  background: linear-gradient(90deg, #048859 0%, #68B23B 100%);
+  box-shadow: -2px -1px 87px NaNpx rgba(85,107,91,0.6);
+  color: #FFFFFF;
+}
+
+.readMore:hover, .startNow:hover {
+  cursor: pointer;
+}
+
+.MainDivDiv span {
+  display: block;
+  color: white;
+}
+
+.MainDivDiv h1 {
+  color: white;
+  font-size: 45px;
+}
+
+.MainDivDiv {
+  height: 100vh;
+  width: 400px;
+  margin-left: 145px;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .mainDivSection {padding: 0px; margin: 0; width: 100%;}
+   .MainDivDiv {
+    width: 100%;
+    margin: 0;
+    padding: 80px;
+    padding-top: 150px;
+  }
+  .MainDivDiv h1 {font-size: 30px; font-weight:bold; width: 250px; color: #fff;}
+  .MainDivDiv span {width: 75%;}
+}
+
+@media screen and (max-width: 425px) {
+  .readMore, .startNow {width: 45%;}
+  .readMore {margin-right: 25px;}
+  .mainDivSection {padding: 0px; margin: 0; width: 100%;}
+   .MainDivDiv {
+    width: 100%;
+    margin: 0;
+    padding: 40px;
+    padding-top: 100px;
+  }
+  .MainDivDiv h1 {font-size: 30px; font-weight:bold; width: 250px; color: #fff;}
+  .MainDivDiv span {width: 75%;}
+}
+
+@media screen and (max-width: 320px) {
+  .readMore, .startNow {display: block; width: 100%; padding: 10px 5px;}
+  .startNow {margin-top: 10px;}
+  .mainDivSection {padding: 0px; margin: 0; width: 100%;}
+   .MainDivDiv {
+    width: 100%;
+    margin: 0;
+    padding: 40px;
+    padding-top: 100px;
+  }
+  .MainDivDiv h1 {font-size: 20px; font-weight: bold; width: 250px; color: #fff;}
+  .MainDivDiv span {width: 100%; text-align: justify;}
+}

@@ -1,0 +1,91 @@
+ .ServicesMainDiv h1 {
+   margin-left: 145px;
+   margin-top: 80px;
+   font-weight: bolder;
+   background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ServicesMainDiv span {
+  display: block;
+  color: #919191;
+  margin-left: 145px;
+}
+
+.servicesSection {
+  margin-right: 145px;
+  margin-top: 50px;
+  margin-left: 145px;
+}
+
+.servicesSection span {
+  margin-left: 0px;
+}
+
+.section2, .section3, .section4{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .servicesSection, .ServicesMainDiv > div {display: none;}
+  .ServicesMainDiv h1 {margin-left: 80px;}
+  .section2 {
+    width: 100%;
+    display: block;
+    padding: 80px;
+    padding-top: 15px;
+
+  }
+  .section2 span {
+    display: inline;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .ServicesMainDiv > div {display: none;}
+  .section3 {
+    display: block;
+    margin-right: 145px;
+    margin-top: 50px;
+    margin: 0 auto;
+    margin-left: 80px;
+  }
+  .section3 span {
+    display: inline;
+    margin-left: 0px;
+  }
+  .servicesSection, .section2, .section4 {display: none;}
+}
+
+@media screen and (max-width: 610px) {
+  .ServicesMainDiv > div {display: none;}
+  .section4 {
+    display: block;
+    margin-right: 145px;
+    margin-top: 50px;
+    margin: 0 auto;
+    margin-left: 30px;
+  }
+  .section4 span {
+    display: inline;
+    margin-left: 0px;
+  }
+  .servicesSection, .section2, .section3 {display: none;}
+}
+
+@media screen and (max-width: 425px) {
+  .ServicesMainDiv {margin-bottom: 30px;}
+  .ServicesMainDiv h1 {font-size: 20px; text-align: center; margin: 0; margin-top: 40px;}
+}
+
+@media screen and (max-width: 375px) {
+  .ServicesMainDiv h1 {text-align: center; margin: 0; padding: 0; margin-top: 40px; font-size: 20px;}
+}
+
+@media screen and (max-width: 320px) {
+  .ServicesMainDiv h1 {font-size: 20px;}
+  .ServicesMainDiv {width: 100%; margin: 0; padding: 0;}
+  .servicesSection {width: 100%; margin: 0 auto;}
+}

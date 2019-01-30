@@ -1,0 +1,57 @@
+.testimonialMainDiv {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 30px #a5a4a4;
+  border-radius: 10px;
+  width: 400px;
+  margin-right: 30px;
+  height: auto;
+  display: inline-block;
+  }
+
+.testimonialMainDiv span {
+  display: block;
+  color: gray;
+  white-space: pre-line;
+}
+
+.testimonialAvatar {
+  width: 50px;
+  height: 50px;
+}
+
+.testimonialMainDiv h3 {
+  font-weight: bold;
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+.testimonialMainDiv span:nth-child(4) {
+  font-size: 12px;
+  color: #919191;
+}
+
+@media screen and (max-width: 425px) {
+  .testimonialMainDiv {
+    width: 100%;
+    margin: 0;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .testimonialMainDiv {
+   border: 1px solid #DADADA;
+   box-shadow: none;
+  }
+  .testimonialMainDiv span {font-size: 12.5px;}
+}
+
+@media screen and (max-width: 320px) {
+  .testimonialMainDiv {
+   border: 1px solid #DADADA;
+   box-shadow: none;
+  }
+  .testimonialMainDiv span {font-size: 12.5px;}
+}

@@ -1,0 +1,98 @@
+.virtualOfficeMainDiv {
+  background: url('./Biggericon.png'), url('./gradiantImage.png') ;
+  background-size: auto, cover;
+  width: 80%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 20px;
+}
+
+.virtualOfficeMainDiv img {
+  width: 80px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.virtualOfficeMainDiv span {
+  width: 40%;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 2%;
+  color: white;
+  word-break:normal;
+  font-size: 16px;
+  }
+
+.virtualOfficeMainDiv button {
+  background: none;
+  border: none;
+  margin-left: 40%;
+}
+
+.virtualOfficeMainDiv button:hover {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.virtualOfficeMainDiv i {
+  font-size: 40px;
+  vertical-align: middle;
+  color: white;
+}
+
+.virtualOfficeMainDiv i:hover {
+font-size: 50px;
+}
+
+@media screen and (max-width:1200px) {
+  .virtualOfficeMainDiv img {display: none;}
+  .virtualOfficeMainDiv { padding: 10px;}
+  .virtualOfficeMainDiv button {
+    font-size: 40px;
+    vertical-align: middle;
+    color: white;
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .virtualOfficeMainDiv img {display: none;}
+  .virtualOfficeMainDiv { padding: 10px;}
+  .virtualOfficeMainDiv button {
+    font-size: 40px;
+    vertical-align: middle;
+    color: white;
+    margin-left: 47%;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .virtualOfficeMainDiv img {display: none;}
+  .virtualOfficeMainDiv { padding: 10px; margin-top: 0px; margin-bottom: 50px;}
+  .virtualOfficeMainDiv span {width: 60%;}
+  .virtualOfficeMainDiv button {
+    font-size: 40px;
+    vertical-align: middle;
+    color: white;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .virtualOfficeMainDiv button {margin-left: 10%;}
+  .virtualOfficeMainDiv span {font-size: 14px;}
+}
+
+@media screen and (max-width:320px) {
+  .virtualOfficeMainDiv img {display: none;}
+  .virtualOfficeMainDiv { padding: 10px; margin-top: 0; margin-top: 40px;}
+  .virtualOfficeMainDiv span {width: 60%;}
+  .virtualOfficeMainDiv button {
+    font-size: 40px;
+    vertical-align: middle;
+    color: white;
+    margin-left: 15%;
+  }
+}

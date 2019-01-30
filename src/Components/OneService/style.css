@@ -1,0 +1,38 @@
+.OneServiceMainDiv {
+  height: 300px;
+  border: 1px solid #DADADA;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.OneServiceMainDiv:hover {
+  border: none;
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+}
+
+.OneServiceMainDiv:hover span,  .OneServiceMainDiv:hover h3, .OneServiceMainDiv:hover img {
+ filter: brightness(0) invert(1);
+}
+
+.OneServiceMainDiv h3{
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  display: block;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 375px) {
+  .OneServiceMainDiv {height: auto;}
+}
+
+@media screen and (max-width: 425px) {
+  .OneServiceMainDiv {height: auto;}
+}
+
+@media screen and (max-width: 320px) {
+  .OneServiceMainDiv {margin-right: 30px; height: auto;}
+}

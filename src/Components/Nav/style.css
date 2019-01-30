@@ -1,0 +1,168 @@
+.menu {
+  float: right;
+}
+
+.mainNav {
+  background-color: white;
+  position: relative;
+}
+
+.mainNav li {
+  color: #666666;
+  float: left;
+}
+
+.mainRow {
+  background-color: white;
+}
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  margin-left: 200px;
+  overflow: hidden;
+}
+
+.topnav .navIcon {
+  display: none;
+}
+
+.mainNav li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 30px;
+  margin-top: 44px;
+}
+
+.mainNav li a:hover:not(.active) {
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+.active{
+  background: -webkit-linear-gradient(90deg, #048859 0%, #68B23B 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+ @media screen and (max-width: 1024px) {
+   .ant-col-push-6 {left: 19%;}
+}
+
+
+ @media screen and (max-width: 768px) {
+   .logo {display: none;}
+
+  .topnav li {display: none;}
+  .topnav li.navIcon {
+    position: absolute;
+    top: 40px;
+    right: 10%;
+    display: block;
+    font-size: 20px;
+  }
+  .topnav.responsive {position: relative; margin: 0 auto;}
+  .topnav.responsive .navIcon {
+    position: absolute;
+    top: 40px;
+    right: 10%;
+  }
+  .topnav.responsive li {
+    float: none;
+    display: block;
+  }
+  .topnav.responsive li:not(.navIcon) {
+    margin-right: 35%;
+  }
+  .fa-bars::before {
+    position: relative;
+    top: -19px;
+    right: -60px;
+    font-size: 25px;
+    color: #DADADA;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navMianDiv {width: 100%;}
+  .topnav li {display: none;}
+  .topnav li.navIcon {
+    position: absolute;
+    top: 40px;
+    right: 10%;
+    display: block;
+    font-size: 20px;
+  }
+  .topnav.responsive {position: relative; margin: 0 auto;}
+  .topnav.responsive .navIcon {  /*this is for icon */
+    position: absolute;
+    top: 40px;
+    right: 10%;
+  }
+  .topnav.responsive li {
+    float: none;
+    display: block;
+  }
+  .fa-bars::before {
+    position: relative;
+    top: -15px;
+    right: -20px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navMianDiv {width: 100%;}
+  .topnav li {display: none;}
+  .topnav li.navIcon {
+    position: absolute;
+    top: 40px;
+    right: 10%;
+    display: block;
+    font-size: 20px;
+  }
+  .topnav.responsive {position: relative; margin: 0 auto;}
+  .topnav.responsive .navIcon {  /*this is for icon */
+    position: absolute;
+    top: 40px;
+    right: 10%;
+  }
+  .topnav.responsive li {
+    float: none;
+    display: block;
+  }
+}
+@media screen and (max-width: 320px) {
+  .navMianDiv {width: 100%;}
+  .topnav li {display: none;}
+  .topnav li.navIcon {
+    position: absolute;
+    top: 40px;
+    right: 10%;
+    display: block;
+    font-size: 20px;
+  }
+  .topnav.responsive {position: relative; margin: 0 auto;}
+  .topnav.responsive .navIcon {  /*this is for icon */
+    position: absolute;
+    top: 40px;
+    right: 10%;
+  }
+  .topnav.responsive li {
+    float: none;
+    display: block;
+  }
+}
